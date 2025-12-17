@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Water Quality Monitoring</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <h1>Smart Water Quality Monitoring</h1>
+    <div id="loading">Loading...</div>
+
+    <div class="cards">
+        <div class="card">
+            <h2>pH</h2>
+            <p id="phValue">--</p>
+        </div>
+
+        <div class="card">
+            <h2>TDS</h2>
+            <p id="tdsValue">--</p>
+        </div>
+
+        <div class="card">
+            <h2>Turbidity</h2>
+            <p id="turbidityValue">--</p>
+        </div>
+
+        <div class="card">
+            <h2>Temperature</h2>
+            <p id="tempValue">--</p>
+        </div>
+    </div>
+
+    <div class="status-box">
+        <span id="statusBadge" class="badge">--</span>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="historyChart"></canvas>
+    </div>
+
+    <footer>
+        Powered by ESP32 → ThingSpeak → AI
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

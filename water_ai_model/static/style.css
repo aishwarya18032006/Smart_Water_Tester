@@ -1,0 +1,59 @@
+body {
+    font-family: Calibri, sans-serif;
+    padding: 20px;
+    background: #f3f6ff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 180px;
+    box-shadow: 0 2px 8px #ccc;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.status-box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.badge {
+    padding: 10px 25px;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.safe {
+    background: green;
+}
+
+.unsafe {
+    background: red;
+}
+
+.chart-container {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.6;
+}
